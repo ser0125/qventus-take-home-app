@@ -6,7 +6,13 @@ const Input = ({
 }: {
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }) => {
-  return <input type="text" onChange={onChange} />;
+  return (
+    <input
+      className="h-7 border border-current focus:outline-blue-500 focus:shadow-md"
+      type="text"
+      onChange={onChange}
+    />
+  );
 };
 
 export default Input;

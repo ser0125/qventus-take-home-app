@@ -2,25 +2,23 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import Input from "../Input/Input";
 import CheckValidation from "../CheckValidation/CheckValidation";
+import useValidation from "@/app/hooks/useValidation";
 
 const Password = ({ passwordReqs }: { passwordReqs: any }) => {
-  const [value, setValue] = useState<string>("");
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setValue(e.target.value);
-  };
-
+  const { handleChange, arrayChecked } = useValidation(passwordReqs);
   return (
-    <div>
+    <div className="flex items-center pt-5">
       <Input onChange={handleChange} />
-      {passwordReqs.map((req: any) => (
-        <CheckValidation
-          key={req.id}
-          label={req.label}
-          value={value}
-          validation={req.validation}
-        />
-      ))}
+      <div className="flex flex-col">
+        {arrayChecked &&
+          arrayChecked.map((req: any) => (
+            <CheckValidation
+              key={req.id}
+              label={req.label}
+              isValid={req.isValid}
+            />
+          ))}
+      </div>
     </div>
   );
 };

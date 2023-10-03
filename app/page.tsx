@@ -24,9 +24,9 @@ export default function Home() {
     },
   ];
   return (
-    <>
-      <h1>Password Component</h1>
+    <main className="flex h-full w-full max-w-4xl items-center pt-4 flex-col">
+      <h1 className="text-xl font-bold">Password Component</h1>
       <Password passwordReqs={passwordReqs} />
-    </>
+    </main>
   );
 }
