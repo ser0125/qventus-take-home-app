@@ -11,8 +11,6 @@ const useValidation = (passwordReqs: any) => {
   const runValidations = (value: string) => {
     const validationsChecked = passwordReqs.map((req: any) => {
       const regExp = validations[req.validation];
-      console.log("value", value);
-      console.log("regExp", regExp);
       const isValid = regExp.test(value);
       return isValid ? { ...req, isValid: true } : { ...req, isValid: false };
     });

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="flex h-full w-full max-w-4xl items-center pt-4 flex-col"
+  >
+    <h1
+      class="text-xl font-bold"
+    >
+      Password Component
+    </h1>
+    <div
+      class="flex items-center pt-5"
+    >
+      <input
+        class="h-7 border border-current focus:outline-blue-500 focus:shadow-md"
+        type="text"
+      />
+      <div
+        class="flex flex-col"
+      >
+        <div
+          class="flex items-center"
+        >
+          <div
+            class="w-10 h-10 rounded-full mx-2.5 my-1 flex justify-center bg-red-700"
+          >
+            <img
+              alt="x_mark"
+              class="w-5"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+          <span>
+            Has a number 0-9
+          </span>
+        </div>
+        <div
+          class="flex items-center"
+        >
+          <div
+            class="w-10 h-10 rounded-full mx-2.5 my-1 flex justify-center bg-red-700"
+          >
+            <img
+              alt="x_mark"
+              class="w-5"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+          <span>
+            Has a special char !@#$%^&*
+          </span>
+        </div>
+        <div
+          class="flex items-center"
+        >
+          <div
+            class="w-10 h-10 rounded-full mx-2.5 my-1 flex justify-center bg-red-700"
+          >
+            <img
+              alt="x_mark"
+              class="w-5"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+          <span>
+            Has uppercase Letter
+          </span>
+        </div>
+        <div
+          class="flex items-center"
+        >
+          <div
+            class="w-10 h-10 rounded-full mx-2.5 my-1 flex justify-center bg-red-700"
+          >
+            <img
+              alt="x_mark"
+              class="w-5"
+              data-nimg="1"
+              decoding="async"
+              height="40"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+              style="color: transparent;"
+              width="40"
+            />
+          </div>
+          <span>
+            No consecutive letters
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

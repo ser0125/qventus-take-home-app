@@ -1,6 +1,5 @@
-import { validations } from "@/app/validations/validations";
-import checkmark from "@/public/checkmark.svg";
-import xmark from "@/public/x-white.svg";
+import checkmark from "../../assets/checkmark.svg";
+import xmark from "../../assets/x-white.svg";
 import Image from "next/image";
 
 const CheckValidation = ({
@@ -18,12 +17,12 @@ const CheckValidation = ({
         }`}
       >
         {isValid ? (
-          <Image className="w-5" src={checkmark} alt="check image" />
+          <Image className="w-5" src={checkmark} alt="check_mark" />
         ) : (
-          <Image className="w-5" src={xmark} alt="check image" />
+          <Image className="w-5" src={xmark} alt="x_mark" />
         )}
       </div>
-      <label>{label}</label>
+      <span>{label}</span>
     </div>
   );
 };
