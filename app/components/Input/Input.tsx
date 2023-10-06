@@ -24,13 +24,15 @@ const Input = ({
         className="h-7 border-current focus:outline-blue-500 focus:shadow-md"
         type={type}
         onChange={onChange}
+        data-cy="password"
       />
-      <button className="px-2" onClick={toogleType}>
+      <button data-cy="button" className="px-2" onClick={toogleType}>
         <Image
           src={type === "password" ? showPassIcon : hidePassIcon}
           width={20}
           height={20}
           alt="pass-icon"
+          data-cy={type === "password" ? "showPassword" : "hidePassword"}
         />
       </button>
     </div>

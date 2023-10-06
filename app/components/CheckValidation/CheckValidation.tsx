@@ -17,12 +17,17 @@ const CheckValidation = ({
         }`}
       >
         {isValid ? (
-          <Image className="w-5" src={checkmark} alt="check_mark" />
+          <Image
+            className="w-5"
+            src={checkmark}
+            alt="check_mark"
+            data-cy="checkmark"
+          />
         ) : (
-          <Image className="w-5" src={xmark} alt="x_mark" />
+          <Image className="w-5" src={xmark} alt="x_mark" data-cy="xmark" />
         )}
       </div>
-      <span>{label}</span>
+      <span data-cy="label">{label}</span>
     </div>
   );
 };
