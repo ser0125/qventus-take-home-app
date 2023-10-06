@@ -1,6 +1,7 @@
 import Password from "./components/Password/Password";
+import { PasswordReq } from "./interfaces/PasswordReq";
 
-export const passwordReqs = [
+export const passwordReqs: PasswordReq[] = [
   {
     id: 0,
     label: "Has a number 0-9",
