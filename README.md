@@ -3,6 +3,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-next-13.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+![Vercel](https://vercelbadge.vercel.app/api/ser0125/qventus-take-home-app/vercel-badge?style=for-the-badge)
 
 
 Next JS application, responsible for validating a password following a Regex approach
@@ -11,6 +12,7 @@ Next JS application, responsible for validating a password following a Regex app
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
@@ -58,6 +60,11 @@ The `passwordReqs` array would have an `id, label and validation` for each requi
 
 **Note**: The PasswordComponent use a custom hook that validate each requirement and returns each requirement with a `isValid` property
 ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/628bc6b7-c7b0-4de4-bd95-9d14f4c55980)
+
+## Demo
+The application is deployed on vercel, so you can take a look there:
+
+https://qventus-take-home-hq5a273ej-ser0125.vercel.app/
 
 ## Contributing
 Your contributions are always welcome! 
