@@ -10,15 +10,15 @@ const CheckValidation = ({
   isValid: boolean;
 }) => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center my-2 md:my-1">
       <div
-        className={`w-10 h-10 rounded-full mx-2.5 my-1 flex justify-center ${
+        className={`w-6 md:w-10 h-6 md:h-10 rounded-full mx-2.5 flex justify-center ${
           isValid ? "bg-lime-700" : "bg-red-700"
         }`}
       >
         {isValid ? (
           <Image
-            className="w-5"
+            className="w-4"
             src={checkmark}
             alt="check_mark"
             data-cy="checkmark"

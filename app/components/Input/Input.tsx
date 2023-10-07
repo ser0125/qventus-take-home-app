@@ -28,9 +28,8 @@ const Input = ({
       />
       <button data-cy="button" className="px-2" onClick={toogleType}>
         <Image
+          className="w-4 md:w-5 h-4 md:h-5"
           src={type === "password" ? showPassIcon : hidePassIcon}
-          width={20}
-          height={20}
           alt="pass-icon"
           data-cy={type === "password" ? "showPassword" : "hidePassword"}
         />

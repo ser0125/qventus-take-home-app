@@ -8,9 +8,9 @@ import { PasswordReq } from "@/app/interfaces/PasswordReq";
 const Password = ({ passwordReqs }: { passwordReqs: PasswordReq[] }) => {
   const { handleChange, arrayChecked } = useValidation(passwordReqs);
   return (
-    <div className="flex items-center pt-5">
+    <div className="flex flex-col md:flex-row items-center pt-5">
       <Input onChange={handleChange} />
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-3">
         {arrayChecked &&
           arrayChecked.map((req: any) => (
             <CheckValidation
