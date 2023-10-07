@@ -5,6 +5,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-next-13.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![Vercel](https://vercelbadge.vercel.app/api/ser0125/qventus-take-home-app?style=for-the-badge)](https://qventus-take-home-hq5a273ej-ser0125.vercel.app/)
+![storybook-badge-optimized](https://github.com/ser0125/qventus-take-home-app/assets/11180036/25a7303d-7795-46d8-ad3a-8157b81fb5f6)
+
 
 Next JS application, responsible for validating a password following a Regex approach
 
@@ -85,7 +87,7 @@ Your contributions are always welcome!
 
 ## Tests
 
-The unit tests are located on: `app/__tests__`
+The **unit tests** are located on: `app/__tests__`
 
 - For each test we have a snapshot and the test Component
 
@@ -95,7 +97,9 @@ To run the unit tests use:
 $ npm run test
 ```
 
-The e2e tests are located on: `cypress/e2e/`
+---
+
+The **e2e** tests are located on: `cypress/e2e/`
 
 - For e2e test we are using cypress and data-cy attributes to identify the elements
 
@@ -119,7 +123,22 @@ $ npm run cypress:open
 
 - Finally, you should see the e2e tests running
   
-- ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/ffa53d9f-88c3-4d25-a14f-f5953bf64ad9)
+  ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/ffa53d9f-88c3-4d25-a14f-f5953bf64ad9)
+
+---
+
+**Storybook**
+
+To run the storybook server, you could run:
+
+```shell
+$ npm run storybook
+```
+
+- Should be able to see and play with the 3 main components:
+
+  ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/a5b201f1-3e2a-4d1a-86d8-b39a175ffa5b)
+
 
 ## License
 
