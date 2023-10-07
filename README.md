@@ -105,6 +105,22 @@ To run the e2e tests use:
 $ npm run cypress:open
 ```
 
+- Select E2E Testing
+  
+  ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/4ad95056-8f92-4870-9802-5812449d0ac6)
+
+- Choose your preferred browser (Chrome recommended)
+  
+  ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/fe319b18-9381-4a85-83d4-ecfffafdbeee)
+
+- Choose `password.cy.js`
+  
+  ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/5a2b0ee5-6055-4d9f-9326-d9023d2fb0ce)
+
+- Finally, you should see the e2e tests running
+  
+- ![image](https://github.com/ser0125/qventus-take-home-app/assets/11180036/ffa53d9f-88c3-4d25-a14f-f5953bf64ad9)
+
 ## License
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
